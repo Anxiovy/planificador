@@ -1,0 +1,22 @@
+{
+  "name": "planificador",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Anxofn",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+
+  },
+  "devDependencies": {
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.23"
+  }
+}
