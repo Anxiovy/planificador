@@ -7,16 +7,22 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
-
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format-check": "prettier --check ."
   },
   "devDependencies": {
+    "eslint": "^10.10.0",
+    "prettier": "^3.9.8",
     "vite": "^8.3.0"
   },
   "dependencies": {
-    "dayjs": "^1.11.23"
+    "canvas-confetti": "^1.9.4",
+    "dayjs": "^1.11.23",
+    "vitest": "^5.0.1"
   }
 }

@@ -1,0 +1,13 @@
+li {
+  margin: top;
+  pasdding: 10px;
+  background-color: white;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
